@@ -1,0 +1,30 @@
+/* Text Style Relative - Mixin Start */
+@mixin text-style($fontSize, $line-height, $font-family, $color: $secondary-1) {
+    @if $line-height==null {
+        font-size: $fontSize;
+        font-family: $font-family;
+        color: $color;
+    }
+
+    @else {
+        font-size: $fontSize;
+        line-height: $line-height;
+        font-family: $font-family;
+        color: $color;
+    }
+}
+
+@mixin background-color($background-color) {
+    background-color: $background-color;
+}
+
+// / Responsive - Mixin Start /
+@mixin media-breakpoint($breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    @media (max-width: $breakpoint-value) {
+        @content;
+    }
+}
+
+// / Responsive - Mixin End /

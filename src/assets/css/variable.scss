@@ -1,0 +1,99 @@
+/**** Color Variables Style CSS Start ****/
+$black: #000000;
+$white: #ffffff;
+$transparent: transparent;
+
+$primary-1:#037E26;
+$primary-2:#1882C4;
+
+$secondary-1:#424242;
+$secondary-2:#182628;
+$secondary-3:#D4D4D4;
+$secondary-4:#75747A;
+$secondary-5:#f9f9f9;
+$secondary-6:#F52828;
+$secondary-7:#dee2e6;
+$secondary-8:#56d89f;
+$secondary-9:#eceeff;
+$secondary-10:#818181;
+$secondary-11:#090042;
+$secondary-12:#f7f7f7;
+$secondary-13:#F0F0F0;
+$secondary-14:#DDDDDD;
+$secondary-15:#0000000D;
+$secondary-16:#FBB901;
+$secondary-17:#2A8CC6;
+$secondary-18:#18B7DD;
+$secondary-19:#380C89;
+$secondary-20:#D56E08;
+$secondary-21:#DDDDDD4D;
+$secondary-22: #f1f1f1;
+$secondary-23:#00000029;
+$secondary-24: #E9E9E9;
+$secondary-25: #AFAFAF;
+$secondary-26: #E7E7E8;
+$secondary-27: #E9E9E9;
+$secondary-28: #89D078;
+$secondary-29: #DB4251;
+$secondary-30: #377749;
+$secondary-31: #446E50;
+$secondary-32: #BFB316;
+$secondary-33: #746AD4;
+$secondary-34: #000501;
+$secondary-35: #b7dac3;
+$secondary-36: #04AE3E;
+$secondary-37: #E6FEEE;
+$secondary-38: #FBFBFD;
+$secondary-39: #E5EBEF;
+$secondary-40: #59B1A6;
+$secondary-41: #105724;
+$secondary-42: #72c489;
+
+
+// Borders
+$secondary-success-green:#28a745;
+$secondary-success-text-color:#155724;
+$secondary-success-bck-color:#d4edda;
+
+/**** Color Variables Style CSS End ****/
+
+/**** Font Family Variables Style CSS Start ****/
+$font-regular: "nunito_sansregular", sans-serif;
+$font-semibold: "nunito_sanssemibold", sans-serif;
+$font-bold: "nunito_sansbold", sans-serif;
+/**** Font Family Variables Style CSS End ****/
+
+/**** Font Size Variables Style CSS Start ****/
+$fs-10: 10px;
+$fs-11: 11px;
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-15: 15px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-24: 24px;
+$fs-25: 25px;
+$fs-26: 26px;
+$fs-28: 28px;
+$fs-30: 30px;
+$fs-34: 34px;
+$fs-40: 40px;
+$fs-45: 45px;
+/**** Font Size Variables Style CSS End ****/
+
+/**** Responsive Breakpoints Variables Style CSS Start ****/
+$breakpoints: (
+  xxxs: 360px,
+  xxs: 420px,
+  xs: 575px,
+  sm: 768px,
+  md: 991px,
+  ipad: 1023px,
+  lg: 1199px,
+  xl: 1400px,
+  xxl: 1600px,
+  xxxl: 1900px,
+);
+/**** Responsive Breakpoints Variables Style CSS End ****/
