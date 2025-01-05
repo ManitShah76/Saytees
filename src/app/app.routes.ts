@@ -7,6 +7,9 @@ import { CategoryComponent } from './pages/category/category.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { WishlistComponent } from './pages/wishlist/wishlist.component';
+import { ProductdetailsComponent } from './pages/productdetails/productdetails.component';
 
 export const routes: Routes = [
       {
@@ -37,7 +40,23 @@ export const routes: Routes = [
           {
             path: 'cart',
             component: CartComponent,
-          }
+          },
+          {
+            path: 'login',
+            component: LoginComponent,
+          },
+          {
+            path: 'signup',
+            component: SignupComponent,
+          },
+          {
+            path: 'wishlist',
+            component: WishlistComponent,
+          },
+          {
+            path: 'productdeatils',
+            component: ProductdetailsComponent,
+          },
         ]
       },
       // {

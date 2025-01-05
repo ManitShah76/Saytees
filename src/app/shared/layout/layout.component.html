@@ -49,12 +49,33 @@
               >Contact</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              (click)="selectTab('productdetails')"
+              class="nav-a mx-2 text-uppercase"
+              >Productdetails</a>
+          </li>
         </ul>
 
         <ul class="navbar-nav ms-auto d-flex align-items-center">
           <li class="nav-item">
+            <span>Welcome, userName</span>
+            <a (click)="selectTab('login')" class="nav-a mx-2 text-uppercase"
+              ><i class="fa-solid fa-circle-user me-1"></i>login</a
+            >
+          </li>
+          <li class="nav-item">
+            <a (click)="selectTab('signup')" class="nav-a mx-2 text-uppercase"
+              ><i class="fa-solid fa-circle-user me-1"></i>sign up</a>
+          </li>
+          <li class="nav-item">
+            <a (click)="selectTab('wishlist')" class="nav-a mx-2 text-uppercase"
+              ><i class="fa fa-heart me-1"></i>Wishlist</a
+            >
+          </li>
+          <li class="nav-item">
             <a (click)="selectTab('cart')" class="nav-a mx-2 text-uppercase"
-              ><i class="fa-solid fa-cart-shopping cart"></i>Cart</a
+              ><i class="fa-solid fa-cart-shopping cart me-1"></i>cart</a
             >
           </li>
           <div class="cart-count">0</div>
@@ -76,6 +97,18 @@
   </div>
   <div *ngIf="selectedTab === 'cart'">
     <app-cart></app-cart>
+  </div>
+  <div *ngIf="selectedTab === 'login'">
+    <app-login></app-login>
+  </div>
+  <div *ngIf="selectedTab === 'signup'">
+    <app-signup></app-signup>
+  </div>
+  <div *ngIf="selectedTab === 'wishlist'">
+    <app-wishlist></app-wishlist>
+  </div>
+  <div *ngIf="selectedTab === 'productdetails'">
+    <app-productdetails></app-productdetails>
   </div>
 </div>
 
